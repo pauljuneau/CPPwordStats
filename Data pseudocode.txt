@@ -1,0 +1,136 @@
+/*Objective: read text file into program
+
+Store unique words and count the occurences of each unique words
+	put unique words into array
+print the words in alphabetical order and the number of occurrences of each word to an output text file
+
+In the output file (see example output): 
+
+-Total number of words read
+-Total number of unique words read
+-Avg length of a word (as a floating point value)
+-Average occurance of a word (as a floating point value)
+-Most commonly occuring word(s)
+
+NOTE: use c-string instead of string data type
+
+
+Prompt user for name of input text file
+create name of output text file: inputTextName.out
+
+Close input file when finished reading
+Close output file when finished writing
+
+print to the screen identification of the different steps happening during the processing
+
+Use an array of structs to hold the words and word counts. Define a struct to hold a string (array of char) and a count (integer). 
+	Main function will then declare an array of these structs. 
+		Assume a word has a max length of 20 characters, therefor the C-string must be 21 characters to allow for NULL character ("\0")
+
+All words stored in array should be stored in all lowercase. Count capitalized words the same as lowercase words.
+
+Declare the array of structs in main and pass it as a parameter to the other functions.  NO GLOBAL VARIABLES EXCEPT NAMED CONSTANTS!
+
+Created functions should only perform one task, and are easy to understand
+
+Use the linear search algorithm to determine if a word is in the array. 
+	The array is an array of structures and the key is a C-string, so use strcmp.
+	Search task should be a seperate function that accepts the array of structs, the number of items currently in the array, and the string value (a word) for which to search. 
+		Search function should return the position (index, subscript, an integer) of where in the array the word is found or a -1 if not found. 
+			Search function should only have one return statement.
+
+Use the selection sort algorithm (given in the array module) to sort the array of structs. Change it from handling arrays of integers to handling an array of struct. 
+	Use strcmp function
+
+Programming Style: Prolog above program, function prolog, variable names, statement indentation, correct loop usage, correct use of structs and functions
+	Limit function length to 25 statements (not including declarations). Use modularization criteria to divide longer functions into sub-functions.
+
+See example program in this module that demonstrates both reading from and writing to a file. 
+	A word is defined as one or more characters terminated by one or more spaces, the end of a line, or the end of a file.  
+		Remove any punctuation from the beginning and end of words. 
+		If punctuation is found inside a word (not at beginning or end, such as a hyphen), your program should consider that symbol as part of that word. 
+		All words must be stored in lower case since the case of words in the file must be ignored.
+
+Assume a max of 500 Unique words. if more, print an error message (ONCE) and then continue reading the file to count the words that have already been stored in the array
+
+Algorithm for the function to read the input file, count words, and store them into the array of structs:
+
+	while not end of file
+                read a word from file
+                search for this word in the array of structs
+                if the word is in the array
+                    increment the count in the struct at the position where the word was found
+                else add the word to the end of the array and set the count to 1
+             end while
+
+Test program with essay.txt provided. Begin testing with very small text files containing only 1 or 2 words initially. Increase length of text file used for testing. */
+
+struct word {
+char buffer[20];
+int count;
+};
+
+
+int main () {
+
+//create 1 word buffer 20 characters (buffer)
+int CONST MAXCHAR = 20;
+char buffer[MAXCHAR];
+int ch;
+int CONST MAXWORD = 500;
+int count2 = 0;
+
+struct word array [MAXWORD];
+
+
+
+Create ifstream			ifstream infile;
+
+
+				inflile.open ("fileName.txt");
+			
+While stream has word		 while ((ch = infile.peek()) != EOF) {      // while not end of file
+
+	grab current word (infile >> buffer) // >> strips spaces
+
+	strip punctuation											
+/*void strip_punct(char * str) {
+    int i = 0;
+    int p = 0;
+    int len = strlen(str);
+    for (i = 0; i < len; i++) {
+    	if (! ispunct(str[i]) {
+    		str[p] = tolower(str[i]);
+    		p++;
+    	}
+    }
+} */
+
+		for (int i = 0; i <  strlen(buffer); i++) {
+			while ( int isupper(buffer[i]) && int islower(buffer[i]) !=0) {
+				
+			 
+	
+	Use linear search algorithm to compare word in buffer against all other words in array
+
+		int pos = 0;
+		
+		while (pos < count2 && strcmp(buffer, array[pos].buffer) != 0)
+			pos++;
+//the if statement says that the word is unique and increments the count. It also adds the word to the struct array.
+		if (pos == count2) {
+
+			strcpy(array[pos].buffer,buffer); //these two lines add word to struct array, sets the count of that word to one. 
+			array[pos].count = 1;
+
+			count2++; //Keeps track of number of valid words in array
+			
+		}
+		else {
+		
+			array[pos].count++;
+		} 
+	
+		
+
+

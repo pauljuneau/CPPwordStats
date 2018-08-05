@@ -1,0 +1,471 @@
+  words in             number of
+ sorted order        occurrences
+---------------------------------
+  1) a                   53
+  2) abbey               1
+  3) about               1
+  4) abstraction         1
+  5) accidents           1
+  6) actually            3
+  7) advance             1
+  8) again               1
+  9) against             1
+ 10) agents              1
+ 11) ago                 1
+ 12) akin                1
+ 13) alight              2
+ 14) all                 6
+ 15) allusions           1
+ 16) also                1
+ 17) altogether          2
+ 18) always              5
+ 19) am                  2
+ 20) an                  3
+ 21) ancient             1
+ 22) and                 25
+ 23) answer              1
+ 24) any                 5
+ 25) anything            2
+ 26) are                 8
+ 27) armed               1
+ 28) as                  16
+ 29) asks                1
+ 30) assert              1
+ 31) asserts             1
+ 32) assist              1
+ 33) at                  4
+ 34) atmosphere          1
+ 35) automatic           1
+ 36) banner              4
+ 37) battle              1
+ 38) be                  6
+ 39) beautiful           1
+ 40) because             4
+ 41) been                1
+ 42) better              1
+ 43) birkenhead          1
+ 44) birth               1
+ 45) blow                1
+ 46) both                4
+ 47) burns               1
+ 48) but                 8
+ 49) by                  4
+ 50) call                2
+ 51) capital             1
+ 52) case                2
+ 53) cases               2
+ 54) casual              1
+ 55) certain             2
+ 56) cheerfulness        1
+ 57) chivalry            1
+ 58) choice              1
+ 59) circumstance        1
+ 60) city                6
+ 61) civilization        2
+ 62) civilized           2
+ 63) coarse              1
+ 64) coherency           1
+ 65) coin                2
+ 66) coins               1
+ 67) colorless           2
+ 68) come                1
+ 69) committed           1
+ 70) commonly            1
+ 71) connected           1
+ 72) consist             1
+ 73) consists            1
+ 74) constitution        1
+ 75) convinced           1
+ 76) copy-book           1
+ 77) corrective          1
+ 78) correspondent       1
+ 79) could               2
+ 80) counters            1
+ 81) courage             1
+ 82) court               1
+ 83) courtesy            1
+ 84) curious             1
+ 85) day                 1
+ 86) days                1
+ 87) dead                1
+ 88) degenerate          1
+ 89) delicacy            1
+ 90) demeanor            1
+ 91) deprecating         1
+ 92) deserts             1
+ 93) detailed            1
+ 94) dignity             1
+ 95) dirty               3
+ 96) dirtyan             1
+ 97) disappears          1
+ 98) distinction         1
+ 99) do                  3
+100) does                5
+101) doing               2
+102) doubted             1
+103) each                1
+104) educated            1
+105) elegance            1
+106) encourage           6
+107) enough              1
+108) even                3
+109) everyday            1
+110) exactly             1
+111) exalted             1
+112) examining           1
+113) existence           1
+114) extinguish          1
+115) extreme             1
+116) eye                 1
+117) eyes                1
+118) fear                1
+119) fine                1
+120) flying              1
+121) following           1
+122) for                 5
+123) force               2
+124) forget              6
+125) forgotten           2
+126) four                1
+127) fourth              1
+128) frippery            2
+129) from                1
+130) functions           1
+131) general             1
+132) generally           5
+133) generation          1
+134) generically         1
+135) gentleman           1
+136) genus               1
+137) glitter             1
+138) government          2
+139) grace               1
+140) greek               4
+141) guard               1
+142) guardian            1
+143) had                 1
+144) half                1
+145) happen              1
+146) happens             1
+147) happy               1
+148) has                 2
+149) have                10
+150) he                  6
+151) hear                1
+152) heavy               1
+153) held                1
+154) here                2
+155) hidden              2
+156) highly              2
+157) him                 5
+158) his                 5
+159) historical          1
+160) history             2
+161) hold                1
+162) holding             2
+163) holidays            3
+164) hollidies           1
+165) holy                2
+166) how                 1
+167) human               3
+168) hundred             1
+169) i                   7
+170) idea                3
+171) ideas               1
+172) if                  11
+173) ignorant            1
+174) image               1
+175) impenetrably        1
+176) impersonal          1
+177) important           1
+178) in                  21
+179) increase            1
+180) individual          1
+181) inkurrij            2
+182) instance            1
+183) instantly           1
+184) into                2
+185) is                  41
+186) it                  23
+187) items               1
+188) jenrally            2
+189) just                1
+190) justification       1
+191) knight-errant       2
+192) know                2
+193) language            1
+194) largely             1
+195) last                1
+196) leader              2
+197) life                1
+198) light               1
+199) like                4
+200) line                1
+201) link                1
+202) london              1
+203) long                1
+204) look                2
+205) looks               2
+206) lose                2
+207) loses               1
+208) losing              1
+209) low                 1
+210) lucid               1
+211) machine             1
+212) magistrate          2
+213) majority            2
+214) make                2
+215) man                 6
+216) manliness           1
+217) matter              1
+218) may                 1
+219) me                  3
+220) mean                2
+221) meaning             3
+222) means               7
+223) meant               2
+224) men                 1
+225) mental              1
+226) mere                1
+227) merely              6
+228) metaphysical        1
+229) might               4
+230) mind                1
+231) mode                1
+232) modern              2
+233) more                2
+234) much                1
+235) my                  5
+236) n                   1
+237) name                2
+238) new                 1
+239) no                  4
+240) not                 16
+241) nothing             1
+242) noticed             1
+243) now                 2
+244) objection           4
+245) obligation          1
+246) occurred            1
+247) of                  49
+248) often               4
+249) on                  1
+250) only                5
+251) opposed             2
+252) or                  5
+253) ordinary            1
+254) origin              2
+255) original            3
+256) other               2
+257) our                 5
+258) over                1
+259) own                 1
+260) paper               1
+261) parts               1
+262) party               1
+263) patriotism          2
+264) people              1
+265) perfectly           1
+266) personal            1
+267) philosophical       1
+268) phonetic            3
+269) phonetically        7
+270) phrases             3
+271) pictorial           1
+272) picture             2
+273) pigs                5
+274) pleeceman           1
+275) poetry              3
+276) poetrya             1
+277) point               1
+278) police              2
+279) policeman           10
+280) policeman's         1
+281) policemen           2
+282) polite              2
+283) politeness          11
+284) politenesssometimes 1
+285) political           1
+286) poorer              1
+287) possible            1
+288) pour                1
+289) prefers             2
+290) president           1
+291) princes             1
+292) principle           1
+293) probable            1
+294) promote             1
+295) pronounced          1
+296) proper              1
+297) properly            2
+298) public              3
+299) purple              1
+300) put                 1
+301) puzzled             1
+302) question            1
+303) quite               1
+304) race                1
+305) really              5
+306) regenerate          1
+307) religion            1
+308) religious           2
+309) remains             1
+310) remarks             1
+311) remembering         1
+312) remind              1
+313) representative      1
+314) republic            2
+315) republican          2
+316) republics           2
+317) reverent            1
+318) revolution          1
+319) ripubliks           1
+320) ritual              1
+321) romance             1
+322) romantic            1
+323) royalist            1
+324) run                 1
+325) sacred              1
+326) same                1
+327) saw                 1
+328) says                1
+329) second              1
+330) see                 2
+331) seem                1
+332) seems               1
+333) sense               1
+334) sensible            1
+335) sentence            3
+336) sentences           1
+337) serious             3
+338) servants            1
+339) shake               1
+340) shall               1
+341) shape               1
+342) she                 1
+343) should              4
+344) similarity          1
+345) similes             1
+346) simply              1
+347) slander             1
+348) smallest            1
+349) smoothing           1
+350) so                  1
+351) some                3
+352) somebody            1
+353) something           2
+354) spears              1
+355) speech              1
+356) spell               2
+357) spelling            6
+358) spelling-reform     1
+359) spelling-reformers  1
+360) spelt               6
+361) splendid            1
+362) stands              1
+363) stern               1
+364) story               2
+365) structure           1
+366) suave               1
+367) subject             1
+368) sublime             1
+369) succeed             1
+370) successfully        1
+371) such                3
+372) suddenly            1
+373) sufficiently        1
+374) supporter           1
+375) suppose             2
+376) supposing           1
+377) sure                1
+378) sweetening          1
+379) sweetness           1
+380) symbol              3
+381) take                4
+382) taking              1
+383) talent              3
+384) talented            4
+385) tell                1
+386) temptation          1
+387) tend                1
+388) tendency            1
+389) tends               1
+390) term                3
+391) testament           1
+392) that                28
+393) the                 88
+394) them                3
+395) there               2
+396) these               2
+397) they                4
+398) thick               1
+399) thing               3
+400) things              1
+401) think               3
+402) thinking            1
+403) third               1
+404) this                7
+405) thoughts            1
+406) thus                1
+407) to                  31
+408) told                2
+409) too                 2
+410) top                 1
+411) touching            1
+412) traces              1
+413) treasure            1
+414) treasures           1
+415) true                1
+416) trumpets            1
+417) truncheon           1
+418) two                 1
+419) ugliness            1
+420) ugly                1
+421) up                  5
+422) upon                1
+423) us                  3
+424) use                 2
+425) used                3
+426) vague               1
+427) veiled              2
+428) very                1
+429) vigilant            1
+430) wants               1
+431) was                 4
+432) watching            1
+433) way                 3
+434) ways                1
+435) we                  10
+436) well-known          1
+437) were                1
+438) westminster         1
+439) what                1
+440) when                3
+441) whether             2
+442) which               7
+443) who                 3
+444) whole               1
+445) whom                1
+446) will                2
+447) with                4
+448) without             2
+449) word                16
+450) words               9
+451) worse               1
+452) would               4
+453) wrong               4
+454) wrote               2
+455) yet                 2
+456) you                 8
+457) youth               1
+
+Statistics:
+	Total number of word read: 1254
+	Total number of unique word read: 457
+	Average length of a word: 6.21663
+	Average occurance of a word: 2.74398
+	Most commonly occurring word(s): 
+		the	88
+		a	53
+		of	49
+		is	41
